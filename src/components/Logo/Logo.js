@@ -7,4 +7,8 @@ const Logo = ( {type} ) => {
   return type === 'colorful' ? <ColorLogo/> : type === 'mono' ? <MonoLogo/> : <BlackLogo/>
 }
 
+Logo.defaultProps = {
+  type : 'colorful'
+}
+
 export default Logo;

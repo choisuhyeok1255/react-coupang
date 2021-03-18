@@ -1,0 +1,26 @@
+.button {
+  width: 342px;
+  height: 53px;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.45));
+  border-radius: 2px;
+}
+
+.primaryNormal {
+  background: #0074E9;
+  color: #FFFFFF;
+}
+
+.secondaryNormal {
+  background: #FFFFFF;
+  color: #0074E9;
+}
+
+.primaryDisabled {
+  background: #97AABD;
+  color: #DFDFDF;
+}
+
+.secondaryDisabled {
+  background: #DFDFDF;
+  color: #97AABD;
+}
